@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "nunito-sans";
+    src: url('https://fonts.google.com/specimen/Nunito+Sans');
+}
+
+:root{
+    --dark-blue: hsl(209, 23%, 22%);
+    --very-dark-blue: hsl(207, 26%, 17%);
+    --very-dark-blue-2: hsl(200, 15%, 8%);
+    --dark-gray: hsl(0, 0%, 52%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--very-dark-blue-2);
+    color: var(--very-light-gray);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
